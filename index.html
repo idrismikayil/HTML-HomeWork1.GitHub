@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 align="center">Application Form</h1>
+
+    <form action="" method="post" autocomplete="off" >
+        <label for="ad" style="color: maroon;" >Ad:</label><br>
+        <input type="text" id="ad" placeholder="Adınız daxil edin" required ><br><br>
+
+        <label for="soyad" style="color: rgb(45, 139, 16);">Soyad:</label><br>
+        <input type="text" id="soyad" placeholder="Soyadınızı daxil edin" required ><br><br>
+
+        <label for="password">Şifrə:</label><br>
+        <input type="password" id="password" minlength="8" maxlength="16" placeholder="Şifrənizi daxil edin" required><br><br>
+
+        <span>Cinsinizi seçin:</span><br>
+        <label for="man">K </label><input type="radio" name="gender" id="man">
+        <label for="woman">Q </label><input type="radio" name="gender" id="woman"><br><br>
+
+        <span>Bitirdiyiniz dərəcələri seçin:</span><br>
+        <input type="checkbox" id="orta" ><label for="orta">Orta</label><br>
+        <input type="checkbox" id="bakalavr"><label for="bakalavr">Bakalavr</label><br>
+        <input type="checkbox" id="magistr"><label for="magistr">Magistr</label><br>
+        <input type="checkbox" id="doktor"><label for="doktor">Doktor</label><br><br>
+
+        <label for="age">Yaş:</label><br>
+        <input type="number" id="age" required min="0" max="200"><br><br>
+        <label for="boy">Boy:</label><br>
+        <input type="number" id="boy" required min="0" max="400"><br><br>
+        <label for="ceki">Çəki:</label><br>
+        <input type="number" id="ceki" required min="0" max="1000"><br><br>
+
+       <div align="center">
+        <input type="image" src="/Task.png" alt="">
+       </div>
+
+    </form>
+</body>
+
+</html>
